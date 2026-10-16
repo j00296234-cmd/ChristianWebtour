@@ -1,0 +1,225 @@
+
+ body{ margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; 
+       background: #35424a;}
+ 
+.pix img{
+   display: flex;
+    padding: 10px 10px;
+    padding-top: 0;
+    
+   }
+.pix img{
+    margin-top:-110px;
+    margin-left: 25px;
+    width: 80%;
+    height: 300%;    
+   
+}
+.section{
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    top: -130px;
+} 
+/**.section p{
+     text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 2px;
+} **/
+.divide{
+    border: none;
+    border: 1px #e8491d solid ;
+    margin-top: -25px;
+  
+}
+.divide2{
+    border: none;
+    border: 1px #e8491d solid ;
+    margin-top:10px;
+  
+}
+.ad{
+    background: #11000172;
+    color: white;
+    padding: 10px;
+  /**  margin: 10px; **/
+    border: #11000144 1px solid;
+    text-align: left;
+}
+.icon-links{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.iconic-link{
+   display: flex;
+    gap: 10px;
+}
+.iconic-link p{
+color: white;
+    font-weight: bold;
+}
+.icon-links img{
+   border: none;
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+      transform: scale (1.1);
+    transition: transform 0.2s;
+    
+}
+
+.icon-links a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/** end of book description **/  
+  
+/** options or videos,books about **/
+.options{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:-120px;
+    margin-left: 40px;
+    /*  top: -150px; */
+}
+.options ul{
+    list-style: none; 
+    }
+
+.options ul li a{
+      color: #555;
+      text-decoration: none;
+      padding: 5px 10px;
+         background: #11000172;
+      border-left: #e8491d 1px solid;
+      border-right: #e8491d 1px solid;
+      padding-bottom: 1px;
+}
+.options a.about{
+      border-right: #e8491d 1px solid;
+}
+
+.options a:hover{
+   text-decoration: underline; 
+   background: #11000172;
+   }
+.options a.active{
+    background: #35424a;
+     font-weight: bold;
+}
+/** end of options or videos,books about **/
+
+.pic{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    max-height: 400px;
+    overflow-x: auto;
+    border-radius: 8px;
+    scroll-snap-type: x mandatory;     
+    padding: 10px;
+   
+}
+.bpic{
+    margin: 0;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 5px;
+    overflow-x: auto;
+    max-height: 400px;
+    scroll-snap-type: x mandatory;     
+    border-radius: 8px;   
+    padding: 10px;
+   
+}
+/** books **/
+.bks{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    max-height: 400px;
+    overflow-x: auto;
+    border-radius: 8px;
+    scroll-snap-type: x mandatory;     
+    padding: 10px;
+   
+}
+
+.download{
+      padding: 10px;
+      position: relative;
+    left:50px;
+}
+.download img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;  
+    flex-shrink: 0;    
+}
+.download a{
+    color: white;
+    background: #e8491d;
+    padding: 7px;
+    border: #e8491d 1px solid;
+    border-radius: 5px;
+      text-decoration: none;
+      font-weight: 50px;
+      position: relative;
+    left:10px;
+}
+/**.pic download a{
+    color: white;
+      text-decoration: none;
+      font-weight: 50px;
+}
+**/
+.more{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/** discription **/
+
+/**.dis p{
+    background: #11000172;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: #11000144 1px solid;
+    text-align: left;
+}**/
+
+/** footer ***/
+footer{
+    background: #11000172;
+    color: #555;
+    text-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: -30px;
+  
+}
+
+footer, .last{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #555;
+}
+
